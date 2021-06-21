@@ -1,0 +1,16 @@
+.NavBar {
+  background-color: var(--primary-color);
+  height: 4rem;
+  line-height: 4rem;
+  color: var(--main-white);
+}
+.Nav-Link {
+  color: var(--main-white);
+  margin-right: 1.5rem;
+  margin-left: 1rem;
+  text-decoration: none;
+}
+.Nav-Link:hover,
+.Nav-Link:focus {
+  color: var(--text-color);
+}

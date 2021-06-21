@@ -1,0 +1,10 @@
+:root {
+  --primary-color: #123456;
+  --text-color: #00ffff;
+  --shadow-main: rgb(139, 139, 139);
+  --shadow-hover: rgb(162, 162, 162);
+  --main-white: rgb(243, 240, 240);
+}
+body {
+  background: var(--main-white);
+}

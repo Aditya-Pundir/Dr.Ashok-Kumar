@@ -1,0 +1,29 @@
+.Book-Card {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  margin-top: 6rem;
+  box-shadow: 20px 20px 20px var(--shadow-main);
+  border-radius: 1rem;
+  transition: 0.9s;
+}
+.Book-Card:hover,
+.Book-Card:focus {
+  transform: scale(115%);
+  box-shadow: 25px 25px 25px var(--shadow-hover);
+}
+.Book-Image {
+  display: block;
+  margin: auto;
+  margin-top: 5%;
+  width: 90%;
+  border-radius: 0.5rem;
+}
+.Glossary-Button {
+  color: var(--primary-color);
+}
+@media (max-width: 350px) {
+  .Book-Card:hover,
+  .Book-Card:focus {
+    transform: scale(108%);
+  }
+}
