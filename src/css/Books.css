@@ -1,10 +1,13 @@
 .Book-Card {
+  display: flex;
+  align-content: center;
   background-color: var(--primary-color);
   color: var(--text-color);
+  text-align: center;
   margin-top: 6rem;
   box-shadow: 20px 20px 20px var(--shadow-main);
   border-radius: 1rem;
-  transition: 0.9s;
+  transition: ease 0.9s;
 }
 .Book-Card:hover,
 .Book-Card:focus {
@@ -20,6 +23,11 @@
 }
 .Glossary-Button {
   color: var(--primary-color);
+  margin-top: 2vh;
+  width: 90%;
+}
+.Nav-Link {
+  margin-left: -1rem;
 }
 @media (max-width: 350px) {
   .Book-Card:hover,

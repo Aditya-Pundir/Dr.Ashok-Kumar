@@ -1,7 +1,7 @@
 import React from "react";
 import "../css/Theme.css";
 import "../css/Books.css";
-import { Card, Button } from "react-bootstrap";
+import { Card } from "react-bootstrap";
 
 Book.defaultProps = {
   ImageURL:
@@ -17,9 +17,9 @@ export default function Book({ ImageURL, Title, Text }) {
       <Card.Body>
         <Card.Title>{Title}</Card.Title>
         <Card.Text>{Text}</Card.Text>
-        <Button variant="info" className="Glossary-Button">
+        {/* <Button variant="info" className="Glossary-Button">
           Glossary
-        </Button>
+        </Button> */}
       </Card.Body>
     </Card>
   );

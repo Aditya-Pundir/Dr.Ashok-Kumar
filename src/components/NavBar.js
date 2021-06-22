@@ -23,7 +23,7 @@ export default function NavBar() {
         className="Nav-Link"
         aria-current="page"
         exact
-        to="/publications"
+        to="/Publications"
         title="Publications"
         activeStyle={activeLink}
       >
